@@ -1,0 +1,117 @@
+/* ============================================================
+   Pe-Pr Design Tokens
+   Imported in app/layout.tsx before globals.css
+   ============================================================ */
+
+:root {
+
+  /* ── Color ─────────────────────────────────────────────── */
+
+  --color-black:     #0a0a0a;
+  --color-white:     #fafafa;
+  --color-gray-50:   #f5f5f5;
+  --color-gray-100:  #ebebeb;
+  --color-gray-200:  #d6d6d6;
+  --color-gray-300:  #b8b8b8;
+  --color-gray-400:  #969696;
+  --color-gray-500:  #737373;
+  --color-gray-600:  #545454;
+  --color-gray-700:  #363636;
+  --color-gray-800:  #1f1f1f;
+  --color-gray-900:  #141414;
+
+  /* Semantic aliases — reference these in components */
+  --color-surface:          var(--color-white);
+  --color-surface-raised:   var(--color-gray-50);
+  --color-surface-overlay:  var(--color-gray-100);
+  --color-border:           var(--color-gray-200);
+  --color-border-strong:    var(--color-gray-400);
+  --color-text-primary:     var(--color-black);
+  --color-text-secondary:   var(--color-gray-600);
+  --color-text-tertiary:    var(--color-gray-400);
+  --color-text-inverse:     var(--color-white);
+  --color-bg-inverse:       var(--color-black);
+  --color-interactive:      var(--color-black);
+  --color-interactive-hover: var(--color-gray-800);
+
+
+  /* ── Typography ─────────────────────────────────────────── */
+
+  /* Resolved by Next.js font variables applied to <html> */
+  --font-display: var(--font-fraunces, 'Fraunces', Georgia, serif);
+  --font-body:    var(--font-geist, -apple-system, BlinkMacSystemFont, sans-serif);
+  --font-mono:    var(--font-geist-mono, 'Courier New', monospace);
+
+  /* Type scale */
+  --text-xs:   0.75rem;    /* 12px */
+  --text-sm:   0.875rem;   /* 14px */
+  --text-base: 1rem;       /* 16px */
+  --text-lg:   1.125rem;   /* 18px */
+  --text-xl:   1.25rem;    /* 20px */
+  --text-2xl:  1.5rem;     /* 24px */
+  --text-3xl:  2rem;       /* 32px */
+  --text-4xl:  2.75rem;    /* 44px */
+  --text-5xl:  4rem;       /* 64px */
+
+  /* Line height */
+  --leading-tight:   1.05;
+  --leading-snug:    1.25;
+  --leading-normal:  1.5;
+  --leading-relaxed: 1.7;
+
+  /* Letter spacing */
+  --tracking-tight:   -0.03em;  /* display headlines       */
+  --tracking-normal:   0em;
+  --tracking-wide:     0.06em;  /* UI labels, nav links    */
+  --tracking-widest:   0.14em;  /* eyebrows, category tags */
+
+  /* Font weight */
+  --weight-regular:  400;
+  --weight-medium:   500;
+  --weight-semibold: 600;
+  --weight-bold:     700;
+
+
+  /* ── Spacing — 4px base unit ────────────────────────────── */
+
+  --space-1:  0.25rem;   /*  4px */
+  --space-2:  0.5rem;    /*  8px */
+  --space-3:  0.75rem;   /* 12px */
+  --space-4:  1rem;      /* 16px */
+  --space-5:  1.25rem;   /* 20px */
+  --space-6:  1.5rem;    /* 24px */
+  --space-7:  1.75rem;   /* 28px */
+  --space-8:  2rem;      /* 32px */
+  --space-9:  2.25rem;   /* 36px */
+  --space-10: 2.5rem;    /* 40px */
+  --space-12: 3rem;      /* 48px */
+  --space-14: 3.5rem;    /* 56px */
+  --space-16: 4rem;      /* 64px */
+  --space-18: 4.5rem;    /* 72px */
+  --space-20: 5rem;      /* 80px */
+
+
+  /* ── Border Radius ──────────────────────────────────────── */
+
+  --radius-sharp: 2px;      /* inputs, config controls, table cells */
+  --radius-soft:  8px;      /* cards, panels, modals                */
+  --radius-pill:  9999px;   /* nav CTA, tags, badges                */
+
+
+  /* ── Motion ─────────────────────────────────────────────── */
+
+  --duration-fast:  150ms;
+  --duration-base:  250ms;
+  --duration-slow:  400ms;
+
+  /* expo out — instant start, soft landing (Linear.app signature) */
+  --ease-out:    cubic-bezier(0.16, 1, 0.3, 1);
+  /* symmetric — for layout transitions                           */
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  /* subtle overshoot — selection states, micro-interactions      */
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  --transition-fast: var(--duration-fast) var(--ease-out);
+  --transition-base: var(--duration-base) var(--ease-out);
+  --transition-slow: var(--duration-slow) var(--ease-in-out);
+}
