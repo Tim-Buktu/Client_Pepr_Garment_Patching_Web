@@ -16,9 +16,9 @@ const UGC_POSTS = [
 ]
 
 const PROJECTS = [
-  { id: 1, src: '/project-dandy.png',  name: 'Project Dandy'  },
-  { id: 2, src: '/project-quirky.png', name: 'Project Quirky' },
-  { id: 3, src: '/project-edge.png',   name: 'Project Edge'   },
+  { id: 1, src: '/ppro1.jpg', name: 'Project Dandy'  },
+  { id: 2, src: '/ppro2.jpg', name: 'Project Quirky' },
+  { id: 3, src: '/ppro3.jpg', name: 'Project Edge'   },
 ]
 
 export default function ProductsPage() {

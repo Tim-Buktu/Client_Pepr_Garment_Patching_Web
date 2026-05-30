@@ -10,28 +10,28 @@ const CONTACT_ITEMS = [
   {
     index: "01",
     label: "Location",
-    lines: ["Palem Indah Blok A/8", "Jakarta Timur, Indonesia", "Casa de Aminda, Jatinangor"],
+    lines: ["Studio Pe-Pr", "Jakarta, Indonesia"],
     action: {
       label: "Open in Maps",
-      href: "https://maps.google.com/?q=Jakarta+Timur+Indonesia",
+      href: "https://maps.google.com/?q=Jakarta+Indonesia",
     },
   },
   {
     index: "02",
     label: "Email",
-    lines: ["timothyhapsim@gmail.com"],
+    lines: ["hello@pe-pr.co"],
     action: {
       label: "Send email",
-      href: "mailto:timothyhapsim@gmail.com",
+      href: "mailto:hello@pe-pr.co",
     },
   },
   {
     index: "03",
     label: "Phone",
-    lines: ["Timothy H Simanjuntak", "+62 813 1878 6825"],
+    lines: ["Pe-Pr Atelier", "+62 21 0000 0000"],
     action: {
       label: "WhatsApp",
-      href: "https://wa.me/6281318786825",
+      href: "https://wa.me/",
     },
   },
 ]
