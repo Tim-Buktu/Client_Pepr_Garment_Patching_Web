@@ -8,6 +8,8 @@ import { AuthSessionProvider } from '@/components/providers/session-provider'
 import './tokens.css'
 import './globals.css'
 
+export const dynamic = 'force-dynamic'
+
 const fraunces = Fraunces({
   subsets: ['latin'],
   variable: '--font-fraunces',
