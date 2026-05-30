@@ -6,9 +6,10 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  serverExternalPackages: ['next-auth'],
   images: {
     domains: ['lh3.googleusercontent.com', 'uploadthing.com'],
   }
 }
 
-module.exports = nextConfig 
+module.exports = nextConfig

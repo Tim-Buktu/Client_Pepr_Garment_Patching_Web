@@ -17,8 +17,8 @@ export default function LoginPage() {
                 height={48} 
                 className="mb-4"
               />
-              <h1 className="text-2xl font-bold text-center">Welcome Back</h1>
-              <p className="text-gray-600 text-sm">Sign in to your account</p>
+              <h1 className="text-2xl font-bold text-center">Sign in</h1>
+              <p className="text-gray-600 text-sm">Use your Google account to continue</p>
             </div>
             <LoginForm />
           </div>

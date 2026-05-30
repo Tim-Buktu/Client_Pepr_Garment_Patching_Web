@@ -48,7 +48,7 @@ function CheckoutContent() {
                   <button
                     className={`flex-1 py-3 px-4 rounded-md border ${
                       selectedDelivery === "delivery"
-                        ? "border-blue-600 bg-blue-50"
+                        ? "border-black bg-gray-100"
                         : "border-gray-300"
                     }`}
                     onClick={() => setSelectedDelivery("delivery")}
@@ -57,7 +57,7 @@ function CheckoutContent() {
                       <div
                         className={`w-4 h-4 rounded-full border-2 ${
                           selectedDelivery === "delivery"
-                            ? "border-blue-600 bg-blue-600"
+                            ? "border-black bg-black"
                             : "border-gray-400"
                         }`}
                       />
@@ -67,7 +67,7 @@ function CheckoutContent() {
                   <button
                     className={`flex-1 py-3 px-4 rounded-md border ${
                       selectedDelivery === "pickup"
-                        ? "border-blue-600 bg-blue-50"
+                        ? "border-black bg-gray-100"
                         : "border-gray-300"
                     }`}
                     onClick={() => setSelectedDelivery("pickup")}
@@ -76,7 +76,7 @@ function CheckoutContent() {
                       <div
                         className={`w-4 h-4 rounded-full border-2 ${
                           selectedDelivery === "pickup"
-                            ? "border-blue-600 bg-blue-600"
+                            ? "border-black bg-black"
                             : "border-gray-400"
                         }`}
                       />
@@ -88,7 +88,7 @@ function CheckoutContent() {
 
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">
-                  Full name <span className="text-red-500">*</span>
+                  Full name <span className="text-gray-500">*</span>
                 </label>
                 <input
                   type="text"
@@ -100,7 +100,7 @@ function CheckoutContent() {
 
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">
-                  Email address <span className="text-red-500">*</span>
+                  Email address <span className="text-gray-500">*</span>
                 </label>
                 <input
                   type="email"
@@ -112,7 +112,7 @@ function CheckoutContent() {
 
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">
-                  Phone number <span className="text-red-500">*</span>
+                  Phone number <span className="text-gray-500">*</span>
                 </label>
                 <input
                   type="tel"
@@ -126,7 +126,7 @@ function CheckoutContent() {
                 <>
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-1">
-                      Country <span className="text-red-500">*</span>
+                      Country <span className="text-gray-500">*</span>
                     </label>
                     <select
                       className="w-full rounded-md border border-gray-300 px-3 py-2"
@@ -218,7 +218,7 @@ function CheckoutContent() {
             </div>
 
             <button
-              className="w-full bg-blue-600 text-white py-3 rounded-md hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full bg-black text-white py-3 rounded-md hover:bg-gray-800 disabled:opacity-40 disabled:cursor-not-allowed"
               disabled={!agreed}
               onClick={handlePayNow}
             >
